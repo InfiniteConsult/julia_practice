@@ -79,7 +79,7 @@ This script introduces `reinterpret(NewType, A)`, a powerful **zero-copy** opera
   * `reinterpret(NewType, A)` creates a **new array view** that shares the **exact same underlying memory** as the original array `A`.
   * It does **not** copy any data.
   * It does **not** convert values (like `Float64(1)` converts an `Int` to a `Float`).
-  * Instead, it simply changes how Julia **interprets the bits** stored in memory. It tells the compiler: "Look at this block of memory that you thought was an array of `Float64`s; now, interpret those same bits as an array of `UInt64`s (or `UInt8`s, etc.)." [Image illustrating reinterpret memory view]
+  * Instead, it simply changes how Julia **interprets the bits** stored in memory. It tells the compiler: "Look at this block of memory that you thought was an array of `Float64`s; now, interpret those same bits as an array of `UInt64`s (or `UInt8`s, etc.)." 
 
 ## Size Requirements and Resulting Dimensions
 
