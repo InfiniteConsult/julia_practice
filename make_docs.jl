@@ -19,7 +19,8 @@ const MODULE_TITLES = Dict(
     "module05" => "Your Own Types and Code Organization",
     "module06" => "High-Performance Techniques",
     "module07" => "I/O and Concurrency",
-    "module08" => "Project Tooling"
+    "module08" => "Project Tooling",
+    "module09" => "Memory, Data Layout and Unsafe Operations"
     # Add future modules here as needed
 )
 
