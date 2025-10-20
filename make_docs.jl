@@ -20,7 +20,8 @@ const MODULE_TITLES = Dict(
     "module06" => "High-Performance Techniques",
     "module07" => "I/O and Concurrency",
     "module08" => "Project Tooling",
-    "module09" => "Memory, Data Layout and Unsafe Operations"
+    "module09" => "Memory, Data Layout and Unsafe Operations",
+    "module10" => "Advanced Parallelism and Thread Safety"
     # Add future modules here as needed
 )
 
